@@ -3,13 +3,33 @@
 ## User Information
 Please fill in your information after forking this repository:
 
-- **Name**: [Your Name]
+- **Name**: Alper Ateş
 
 ## Project Description
-[Add a brief description of your project here]
+Uygulama; check-in kayıtları, mesajlar, sightings, kişisel notlar ve anonim ihbarları tek bir arayüzde birleştirerek Podo’nun Ankara’daki son görülen rotasını yeniden oluşturmayı amaçlar. Harita, kronolojik sıralama ve kişi bazlı analiz sayesinde hem olay akışı takip edilebilir hem de en güçlü şüpheli daha net şekilde görülebilir.
 
-## Getting Started
-[Add instructions for setting up and running the project]
+## 🛠️ Kurulum ve Çalıştırma
+
+### 1. Hazırlık
+`.env.example` dosyasının bir kopyasını `.env` adıyla oluşturun ve gerekli API anahtarlarınızı buraya ekleyin.
+
+### 2. Bağımlılıkları Yükleyin
+Tüm sistemi kurmak için ana dizinde şu komutu çalıştırın:
+```bash
+npm install
+```
+
+### 3. Uygulamayı Başlatın
+Geliştirme sunucularını başlatmak için:
+```bash
+npm run dev
+```
+Bu komut `concurrently` paketini kullanarak hem **Vite frontend** (port 5173) hem de **Express API** (port 3001) sunucularını aynı terminalde başlatır.
+
+### Erişim Bilgileri
+- **Uygulama Arayüzü:** [http://localhost:5173](http://localhost:5173)
+- **API Sunucusu:** [http://localhost:3001](http://localhost:3001)
+
 
 # 🚀 Challenge Duyurusu
 
